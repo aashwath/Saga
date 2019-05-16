@@ -1,0 +1,156 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.bg-purple {
+	background-color: rebeccapurple;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: yellow
+}
+
+.navbar-toggler-icon {
+	background-image: url(data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://ww…p='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E);
+}
+
+.navbar-dark .navbar-toggler {
+	border-color: transparent;
+}
+
+.nav-item {
+	padding: 0 4rem;
+}
+
+.nav-link:hover {
+	color: #ccc !important;
+}
+
+.carousel-inner img {
+	max-width: 100%;
+	max-height: auto
+}
+
+
+h1 {
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+	font-weight: 700;
+}
+
+
+
+/*
+.jumbotron {
+	border-bottom: black 0.5px solid;
+	border-top: black 0.5px solid;
+	background-color: white;
+}
+*/
+
+/*@media only screen and (max-width: 768px) {*/
+
+/*	nav#myNav {*/
+
+/*		position: fixed;*/
+
+/*		bottom: 0;*/
+
+/*		left: 0;*/
+
+/*		right: 0;*/
+
+/*		top: 100;*/
+
+/*		z-index: 99;*/
+
+/*	}*/
+
+/*}*/
+
+/*@media only screen and (min-width: 768px) {*/
+
+/*	nav#myNav {*/
+
+/*		position: fixed;*/
+
+/*		top: 0;*/
+
+/*		left: 0;*/
+
+/*		right: 0;*/
+
+/*		z-index: 99;*/
+
+/*	}*/
+
+/*}*/
+
+#ghus {
+	/*
+	width: 400px;
+	height: 500px;
+*/
+	padding-left: 4em;
+	max-height: 400px;
+	max-width: 100%;
+}
+
+
+.scrolling-wrapper-flex {
+
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	min-height: 340px;
+}
+
+#card-imgs,
+#Beings .card {
+	height: 180px;
+	width: 180px;
+	border-radius: 100%;
+	object-fit: cover;
+	flex: 0 0 auto;
+	margin-right: 2rem;
+}
+
+#Beings .card-title {
+	margin-bottom: 0.1rem;
+	font-weight: 700;
+}
+
+hr {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	width: 110px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+}
+
+.buy .card {
+	margin: 1rem 1rem;
+	max-height: 800px;
+	max-width: 310px;
+	object-fit: cover;
+}
+
+h6 + p {
+	font-size: 0.8rem;
+}
+
+#Cart {
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+}
+
+.buy .card-title {
+	font-weight: 700;
+}
+
+.btn {
+	height: 100%;
+	width: 100%
+}
